@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
-
+import 'package:quizzer_modelizing/feature/home/home.dart';
+import 'feature/page_animated/page_view.dart';
+import 'feature/page_vertical_page/page_vertical.dart';
+import 'feature/sms/view.dart';
+import 'feature/web_scrapping_page/web_scrapping.dart';
 import 'features/home_quizz/view.dart';
 
 void main() {
@@ -17,7 +21,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: const QuizzeScreen(),
+      home:  SmsVeiwUser(),
     );
   }
 }
